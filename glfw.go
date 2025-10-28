@@ -1,3 +1,5 @@
+package main
+
 var GLFW_SAMPLES int = 0x0002100D
 var GLFW_CONTEXT_VERSION_MAJOR int = 0x00022002
 var GLFW_CONTEXT_VERSION_MINOR int = 0x00022003
@@ -11,3 +13,4 @@ var GlfwCreateWindow func(width int, height int, title string, monitor uintptr, 
 var GlfwTerminate func()
 var GlfwMakeContextCurrent func(window uintptr)
 var GlfwSetInputMode func(
+
